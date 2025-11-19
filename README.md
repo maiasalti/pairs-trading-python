@@ -31,8 +31,8 @@ The strategy operates on the economic principle of the "Law of One Price." Since
 The system utilizes a vectorized backtest engine with an event-driven loop logic to manage trade state and position sizing.
 
 * **Train/Test Split:**
-    * **Training Data (2000-2010):** Used to calculate the Hedge Ratio, Mean, and Standard Deviation.
-    * **Testing Data (2010-2015):** The fixed parameters were applied to this unseen period to simulate real-world performance.
+    * **Training Data (2010-2020):** Used to calculate the Hedge Ratio, Mean, and Standard Deviation.
+    * **Testing Data (2021-2024):** The fixed parameters were applied to this unseen period to simulate real-world performance.
 * **Results:** The strategy remained profitable in the Out-of-Sample period, confirming the structural relationship held up without overfitting.
 * **Risk Management:** Modeled transaction costs ($1.00 per round trip) to calculate realistic Net PnL.
 
